@@ -3,7 +3,7 @@
 **Viewer avançado de contas Roblox com notificações em tempo real via Discord**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Custom-red.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-3.1.0-green.svg)](https://github.com/Yankkj)
 
 [Recursos](#-recursos) • [Instalação](#-instalação) • [Configuração](#️-configuração)
