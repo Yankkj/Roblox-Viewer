@@ -1,0 +1,14 @@
+[project]
+name = "gon-roblox-viewer"
+version = "3.1.0"
+description = "Roblox account monitor with Discord embeds"
+authors = [{name="Yankkj", email="n/a"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["aiohttp>=3.9.0"]
+
+[project.scripts]
+gon-viewer = "main:main"
+
+[tool.black]
+line-length = 100

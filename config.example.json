@@ -1,0 +1,18 @@
+{
+  "webhook_url": "SEU_WEBHOOK_URL_AQUI",
+  "user_ids": [12345678, 87654321],
+  "check_interval": 30,
+  "discord_user": "revivem",
+  "roblox_user": "crucifixei",
+  "silent_mode": false,
+  "backup_enabled": true,
+  "notifications": { "friends": true, "followers": true, "followings": true, "groups": true, "presence": true, "badges": true },
+  "quiet_hours": { "enabled": false, "start": "23:00", "end": "07:00", "tz": "America/Sao_Paulo" },
+  "cache": { "profiles": true, "avatars": true, "lists": false },
+  "lists": { "window_limit": 200, "rotate_sort": true },
+  "strategy": { "count_first": true, "full_refresh_every": 10 },
+  "badges": { "poll_every": 5, "window_limit": 500, "sort_order": "Desc" },
+  "webhook": { "batch": true, "batch_max_items": 15, "multi_embed_per_request": true, "dedupe_per_cycle": true },
+  "concurrency": { "total": 10, "per_host": 5 },
+  "owner": { "github": "Yankkj", "github_url": "https://github.com/Yankkj", "discord": "revivem", "lock_enabled": true }
+}
