@@ -6,45 +6,45 @@
 [![License](https://img.shields.io/badge/License-Custom-red.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-3.1.0-green.svg)](https://github.com/Yankkj)
 
-[Recursos](#-recursos) • [Instalação](#-instalação) • [Configuração](#️-configuração)  •
+[Recursos](#-recursos) • [Instalação](#-instalação) • [Configuração](#️-configuração)
 
 </div>
 
 ---
 
-## 📋 Sobre
+## Sobre
 
 **Gon Roblox Viewer** é um sistema de monitoramento em tempo real para contas do Roblox que detecta e notifica via Discord webhooks sobre diversas mudanças na conta, incluindo:
 
-- 👥 Amigos (adições/remoções)
-- 👤 Seguidores e seguindo
-- 🎭 Grupos (entradas/saídas/mudanças de cargo)
-- 🎮 Status de presença e jogos
-- 🖼️ Alterações de avatar/skin
-- ⭐ Novos badges conquistados
-- 📊 Estatísticas completas da conta
+- Amigos (adições/remoções)
+- Seguidores e seguindo
+- Grupos (entradas/saídas/mudanças de cargo)
+- Status de presença
+- Alterações de avatar/skin
+- Novos badges conquistados
+- Estatísticas completas da conta
 
-## ✨ Recursos
+## Recursos
 
-### 🔔 Notificações Inteligentes
+### Notificações Inteligentes
 - **Batching automático**: Agrupa múltiplas mudanças em embeds organizados
 - **Deduplicação**: Evita notificações duplicadas no mesmo ciclo
 - **Quiet Hours**: Silencia notificações em horários específicos
 - **Embeds ricas**: Notificações visualmente atraentes com avatares e links
 
-### ⚡ Performance Otimizada
+### Performance Otimizada
 - **Cache inteligente**: Reduz chamadas desnecessárias à API do Roblox
 - **Rate limiting**: Respeita limites de requisição automaticamente
 - **Async/await**: Operações concorrentes para máxima velocidade
 - **Retry automático**: Recuperação de falhas de rede com backoff exponencial
 
-### 🎯 Monitoramento Preciso
+### Monitoramento Preciso
 - **Detecção de avatares**: Usa assinatura SHA256 para detectar mudanças reais
 - **Window com rotação**: Monitora followers/followings de forma eficiente
 - **Full refresh periódico**: Garante sincronização completa dos dados
 - **Backup de estado**: Preserva histórico entre execuções
 
-## 🚀 Instalação
+## Instalação
 
 ### Requisitos
 - Python 3.10 ou superior
@@ -65,7 +65,7 @@ cp config.example.json config.json
 # Edite config.json com seus dados
 ```
 
-## ⚙️ Configuração
+## Configuração
 
 ### 1. Obter Webhook do Discord
 
@@ -86,7 +86,7 @@ cp config.example.json config.json
 | `full_refresh_every` | Ciclos até refresh completo | `10` |
 | `batch_max_items` | Máximo de itens por embed em lote | `15` |
 
-## 🔍 Como Funciona
+## Como Funciona
 
 ### Ciclo de Monitoramento
 
@@ -105,7 +105,7 @@ cp config.example.json config.json
 
 
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Erro: "Bloqueado: owner inválido"
 - Verifique se os campos `owner` em `config.json` estão corretos
@@ -125,16 +125,9 @@ cp config.example.json config.json
 - Reduza `window_limit` para diminuir requests
 - Monitore métricas HTTP no terminal
 
+## Autor
 
-## 📜 Licença
-
-Copyright © 2024 Yankkj (@revivem)
-
-Todos os direitos reservados. Este software é proprietário e seu uso é restrito aos termos especificados pelo autor.
-
-## 👤 Autor
-
-**Yankkj** (@revivem)
+**Yankkj**
 - GitHub: [@Yankkj](https://github.com/Yankkj)
 - Discord: revivem
 
@@ -144,6 +137,6 @@ Todos os direitos reservados. Este software é proprietário e seu uso é restri
 
 **Gon Roblox Viewer** 
 
-Desenvolvido por [@revivem](https://github.com/Yankkj)
+Desenvolvido por [@Gon](https://github.com/Yankkj)
 
 </div>
